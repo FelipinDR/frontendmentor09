@@ -86,4 +86,32 @@
     color: white;
 
   }
-  
+  .logo{
+    width: 2rem;
+  }
+  .logos{
+    display: flex;
+    justify-content: right;
+    
+  }
+  @media (max-width:600px){
+    body{
+        background-image: url(images/bg-mobile.svg);
+    }
+    main{
+        grid-template-columns: 1fr;
+    }
+    .container02{
+        display:grid;
+        text-align: center;
+        place-items: center;
+    }
+    .title{
+        padding-right: 0;
+        padding: 1;
+    }
+    .content{
+        padding-right: 0;
+        padding: 2rem;
+    }
+  }
