@@ -61,6 +61,9 @@
     place-items:center;
     min-height: 100vh;
   }
+  .container02{
+    padding-left:2rem ;
+  }
   .logo{
     margin: 2.5rem;
   }
@@ -86,12 +89,16 @@
     color: white;
 
   }
-  .logo{
+  .logo2{
     width: 2rem;
+    margin-right: 1rem;
   }
   .logos{
     display: flex;
     justify-content: right;
+    padding-left: 2rem;
+    
+
     
   }
   @media (max-width:600px){
@@ -113,5 +120,8 @@
     .content{
         padding-right: 0;
         padding: 2rem;
+    }
+    .logos{
+        justify-content: center;
     }
   }
